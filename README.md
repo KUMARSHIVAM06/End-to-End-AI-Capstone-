@@ -1,4 +1,4 @@
-End-to-End AI Capstone System
+# 🤖 End-to-End AI Capstone System
 
 A modular AI pipeline that combines **face authentication**, a **rule-based dialog engine**, and a **command executor** into one cohesive application — available as both a CLI and a minimal Tkinter GUI.
 

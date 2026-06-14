@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────────
+#  AI Capstone — Python Dependencies
+#  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# ── Core (always required) ────────────────────────────────────
+# (none beyond stdlib — the system degrades gracefully without extras)
+
+# ── Speech ────────────────────────────────────────────────────
+SpeechRecognition>=3.10.0   # mic input
+pyttsx3>=2.90               # offline TTS
+
+# ── Vision ────────────────────────────────────────────────────
+opencv-python>=4.8.0        # face detection (Haar cascades)
+
+# ── TTS fallback ──────────────────────────────────────────────
+gTTS>=2.5.0                 # online TTS fallback
+pygame>=2.5.0               # audio playback for gTTS
+
+# ── Testing ───────────────────────────────────────────────────
+pytest>=7.4.0
+
+# ── Optional: offline ASR backend ─────────────────────────────
+# pocketsphinx>=5.0.3
+
+# ── Optional: screenshot support ─────────────────────────────
+# pyautogui>=0.9.54
